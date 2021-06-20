@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div class="home">
+      <a href="#" id="homenav" class="animate__animated animate__heartBeat"
+        >Home</a
+      >
+      <a
+        href="#"
+        id="edunav"
+        onclick="scrollEducation"
+        class="animate__animated animate__heartBeat"
+        >Education</a
+      >
+      <a href="#" id="skillsnav" class="animate__animated animate__heartBeat"
+        >Skills</a
+      >
+      <a href="#" id="projectsnav" class="animate__animated animate__heartBeat"
+        >Projects</a
+      >
+      <a href="#" id="aboutnav" class="animate__animated animate__heartBeat"
+        >About</a
+      >
+    </div>
+    <div class="main">
+      <div class="coder"></div>
+      <div class="name animate__animated animate__bounceInLeft">Welcome!</div>
+    </div>
+
+    <div class="education">
+      <h2 class="edu-head">Education</h2>
+      <div class="edu-flex">
+        <div class="edu-item">
+          <h3>Netaji Subhas University Of Technology <br /></h3>
+
+          🔹 B.Tech in Computer Science With Data Science <br />
+          🔹2020 - 2024
+        </div>
+        <div class="edu-item">
+          <h3>D. S. Memo. Public Sr. Sec. School <br /></h3>
+          🔹 12th CBSE Boards(2019-2020)<br />
+          🔹Scored 93.4%
+        </div>
+        <div class="edu-item">
+          <h3>D. S. Memo. Public Sr. Sec. School <br /></h3>
+          🔹 10th CBSE Boards <br />
+          🔹Scored 90%
+        </div>
+      </div>
+    </div>
+    <h2 class="skills-head">Skills</h2>
+    <div class="skills">
+      <table class="skills-list">
+        <tr>
+          <td class="skill-cell">HTML & CSS</td>
+          <td>🌟🌟🌟</td>
+          <td class="skill-cell">Javascript</td>
+          <td>🌟🌟</td>
+        </tr>
+        <tr>
+          <td class="skill-cell">Github</td>
+          <td>🌟🌟</td>
+          <td class="skill-cell">Bootstrap</td>
+          <td>🌟🌟🌟</td>
+        </tr>
+        <tr>
+          <td class="skill-cell">Python</td>
+          <td>🌟🌟🌟</td>
+          <td class="skill-cell">C++</td>
+          <td>🌟🌟🌟</td>
+        </tr>
+      </table>
+    </div>
+    <div id="Projects">
+      <h2 class="proj-head">Projects</h2>
+      <div class="projects-items">
+        <div class="slide">
+          <p>Stopwatch ⏱</p>
+          <a href=""></a>
+          <img
+            src="https://cdn.pixabay.com/photo/2015/04/20/13/08/time-731110_960_720.jpg"
+            alt=""
+          />
+          <br />
+          <a href="https://karankumar-git.github.io/stopwatch/">
+            <button type="button">Visit</button>
+          </a>
+          <a href="https://www.xbox.com/en-IN" target="_blank">
+            <button type="button" class="btn">Source Code</button>
+          </a>
+        </div>
+
+        <div class="slide">
+          <p>Stone✊ Paper✋ Scissor✌</p>
+          <img
+            src="https://media.istockphoto.com/photos/rock-paper-scissors-is-best-choice-way-to-decision-making-picture-id649504540?s=612x612"
+            alt=""
+          />
+          <br />
+          <a href="https://karankumar-git.github.io/RockPaperScissor"
+            ><button type="button">Visit</button></a
+          >
+
+          <a href="https://" target="_blank">
+            <button type="button" class="btn">Source Code</button>
+          </a>
+        </div>
+
+        <div class="slide">
+          <p>Quote Generator ✍</p>
+          <img
+            src="https://images.pexels.com/photos/1742370/pexels-photo-1742370.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+            alt=""
+          />
+          <br />
+          <a href="https://karankumar-git.github.io/quote-generator/">
+            <button type="button">Visit</button>
+          </a>
+          <a href="https://www.xbox.com/en-IN" target="_blank">
+            <button type="button" class="btn">Source Code</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <h2 class="abouthead">About</h2>
+    <div class="about">
+      <img src="72270665_748645275606925_4054382460941631488_n.jpg" alt="" />
+      <div class="karan">
+        Karan Kumar <br />
+        A Coding Enthusiast <br />
+        A First-year student, who exploring the new technologies around himself.
+      </div>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/karan-kumar-b937b9200/">
+          <img src="linkedin-app.png" alt="" />
+        </a>
+        <a href="https://github.com/karankumar-git/">
+          <img src="github.png" alt="" />
+        </a>
+        <a href="mailto:karankumarsonkaria@gmail.com">
+          <img src="gmail.png" alt="" />
+        </a>
+      </div>
+    </div>
+  </body>
+  <script>
+    let edunav = document.getElementById("edunav");
+    let skillsnav = document.getElementById("skillsnav");
+    let projectsnav = document.getElementById("projectsnav");
+    let aboutnav = document.getElementById("aboutnav");
+    function scrollEducation() {
+      window.scroll({
+        top: 650,
+        behavior: "smooth",
+        reset: true,
+      });
+    }
+    function scrollSkills() {
+      window.scroll({
+        top: 1250,
+        behavior: "smooth",
+      });
+    }
+    function scrollProjects() {
+      window.scroll({
+        top: 1620,
+        behavior: "smooth",
+      });
+    }
+    function scrollabout() {
+      window.scroll({
+        top: 2140,
+        behavior: "smooth",
+      });
+    }
+    edunav.addEventListener("click", scrollEducation);
+    skillsnav.addEventListener("click", scrollSkills);
+    projectsnav.addEventListener("click", scrollProjects);
+    aboutnav.addEventListener("click", scrollabout);
+  </script>
+</html>
